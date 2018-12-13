@@ -1,0 +1,24 @@
+{% extends 'time_keeper/base.html' %}
+
+{% block content %}
+{% load static %}
+		<p>{{message}}</p>
+		<div class="login">
+		<form action='' method='POST'>
+			<label id='username'>Username: </label>
+			<br>
+			<input type="text" name="username" required id="user">
+			<br>
+			{% csrf_token %}
+			<input type='submit' class="submit" id='login' value="Login">
+		</form>
+		</div>
+		<div class="reminder">
+		<p>
+			REMINDER: This application only works when installed through the <a id="chrome_link" href="https://play.google.com/store/apps/details?id=com.android.chrome">Chrome Android Browser </a>. If you do not have Google Chrome installed on your phone, please install it and visit this website. A pop-up to install the application on your phone will show up at the bottom of your screen.
+		</p>
+		</div>
+
+</html>
+
+{% endblock %}

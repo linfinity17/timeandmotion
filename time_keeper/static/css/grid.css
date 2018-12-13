@@ -1,0 +1,46 @@
+/* =====================================
+   Grid Layout
+======================================== */
+
+.main_container {
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 5px;
+  grid-gap: 0;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.main-nav {
+  grid-area: header;
+}
+
+.content-container {
+  grid-area: main;
+  padding: 1.5em;
+  padding-top: 2em;
+}
+
+.footer_nav {
+  grid-area: footer;
+}
+
+@media (max-width: 768px) {
+
+  .main_container {
+    grid-template-rows: minmax(50px,auto) 1fr 5px;
+  }
+
+/* display toggles */
+  .toggle_nav {
+    display: block;
+  }
+
+}
+
+
+

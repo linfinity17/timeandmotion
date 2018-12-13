@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+{% load pwa %}
+{% load static %}
+<head>
+	{% progressive_web_app_meta %}
+	<title>Timer App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+	<link rel="stylesheet" href="{% static 'css/stylev6.css' %}">
+	<link rel="stylesheet" href="{% static 'css/grid.css' %}">
+</head>
+
+
+<body>
+
+	<div class="main_container">
+		<div id="loader"></div>
+	    <nav class="main-nav">
+	        <ul class="nav">
+	          <li class="name"><a id="main_header" href="#"><img src="{% static 'images/sbc_logo.png' %}" height="20"> SBC Time and Motion</a></li>
+	          <li><a id="logout" href="#">Logout</a></li>
+	        </ul>
+	    </nav>
+		<div class="content-container">
+			<script type="text/javascript">
+				document.querySelector("#loader").className = "";
+			</script>
+			{% block content %}{% endblock %}
+		</div>
+		<div class="footer bg-dark">
+		</div>
+	</div>
+	<script type="text/javascript" src="{% static 'js/idb.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/idbop_task.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/idbop_record.js' %}"></script>
+	{% block scripts %}{% endblock %}
+	<script type="text/javascript">
+			setTimeout(function(){ document.querySelector("#loader").classList.toggle('toggle_loader'); }, 250);
+			setTimeout(function(){ document.querySelector("#loader").classList.toggle('toggle_none'); }, 750);
+
+
+			document.querySelector("#logout").onclick = function(){
+				if (window.location.pathname == "/login") {
+					document.querySelector("#logout").href = "#";
+					return;
+				}
+
+				else {
+					ans = confirm("Are you sure you want to logout? \n\n Make sure to save data! All unsaved data will be lost.");
+					if (ans) {
+						document.querySelector("#logout").href = "/logout";
+					}
+					else {
+						document.querySelector("#logout").href = "#";
+					}
+				}
+			}
+
+			if(navigator.onLine) {
+			document.querySelector("#main_header").href = "/timer";
+			document.querySelector("#logout").hidden = false;
+				if (window.location.pathname == "/login") {
+					document.querySelector("#logout").hidden = true;
+				}
+			}
+			else{
+			document.querySelector("#main_header").href = "#";
+			document.querySelector("#logout").hidden = true;
+			}
+	</script>
+</body>
+</html>

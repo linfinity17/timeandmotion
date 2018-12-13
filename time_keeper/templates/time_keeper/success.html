@@ -1,0 +1,25 @@
+{% extends 'time_keeper/base.html' %}
+{% block content %}
+<p id="username" hidden>{{ username }}</p>
+<p>Loading...</p>
+<script type="text/javascript">
+	var staticCacheName = 'time_record-v1';
+	console.log('hello!');
+	
+	Promise.resolve()
+	.then(function() {
+		return caches.open(staticCacheName);
+	})
+	.then(function(cache) {
+        return cache.addAll([
+          '/timer',
+          '/get_task',
+          '/post_data',
+        ]);
+      })
+	.then(function() {
+		console.log('hello again');
+		window.location = "/timer";
+	})
+</script>
+{% endblock %}

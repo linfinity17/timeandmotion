@@ -1,0 +1,14 @@
+{% extends 'time_keeper/base.html' %}
+{% block content %}
+{% load static %}
+
+	<div>
+		<table id="offline_data">
+		<!-- display here -->
+		</table>
+	</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{% static 'js/functions.js' %}"></script>
+{% endblock %}

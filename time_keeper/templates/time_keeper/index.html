@@ -1,0 +1,87 @@
+{% extends 'time_keeper/base.html' %}
+{% load static %}
+{% block content %}
+	<div id="clock"></div>
+	<table class="info_container">
+		<tr>
+			<td class="col-1">User: </td>
+			<td id="username">{{ user }}</td>
+		</tr>
+		<tr>
+			<td class="col-1"><label>Task Type: </label></td>
+			<td>
+				<select name = "task_type" id="task_type">
+					<option value="">Select Type</option>
+					<option value="new">New</option>
+				    <option value="continued">Continued Task</option>
+			    </select>
+		    </td>
+	    </tr>
+		<tr id="primary_task_row">
+			<td class="col-1"><label>Task: </label></td>
+			<td>
+			<select name = "primary_task" id="primary_task">
+				<option value="">Select Task</option>
+		    </select>
+		    </td>
+		</tr>
+		<tr id="sub_task_row">
+			<td class="col-1"><label>Sub-Task: </label></td>
+			<td>
+				<select name = "sub_task" id="sub_task">
+			    </select>
+		    </td>
+	    </tr>
+		<tr id="previous_task_row">
+			<td class="col-1"><label>Previous Task: </label></td>
+			<td>
+			<select name = "previous_task" id="previous_task">
+				<option value="">Select Task</option>
+		    </select>
+		    </td>
+		</tr>
+		<tr>
+			<td class="col-1"> Start Time: </td>
+			<td id="start_time"></td>
+		</tr>
+		<tr>
+			<td class="col-1"> Stop Time: </td>
+			<td id="stop_time"></td>
+		</tr>
+		<tr hidden>
+			<td class="col-1"> No. of Transactions: </td>
+			<td><input type="number" min="0" id="no_of_transactions" name="no_of_transactions" value = "1"></td>
+		</tr>
+		<tr>
+			<td class="col-1"> Completed? </td>
+			<td>
+				<select name = "completed" id="completed">
+					<option value="">Select</option>
+					<option value=1>Yes</option>
+				    <option value=0>No</option>
+			    </select>
+			</td>
+		</tr>
+		<tr>
+			<td class="col-1"> Remarks: </td>
+			<td><textarea id="remarks" rows="5" cols="25"></textarea></td>
+		</tr>
+	</table>
+	<label hidden>Date: </label>
+		<input hidden type="Date" name="task_date" id="task_date">
+	<button id="start" class="start">Start</button>
+	<button id="stop" class="stop">Stop</button>
+	<button id="submit" class="submit">Submit</button>
+	<form id="submit_form" action='' method='POST'>
+		<input type="text" name="data" hidden required id="id_data">
+		<input type="text" name="id_button" hidden required id="id_button">
+		{% csrf_token %}
+		<input type="submit" hidden value="Submit">
+	</form>
+	<button id="save_button">View Records</button>
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{% static 'js/functions.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/index.js' %}"></script>
+
+{% endblock %}
