@@ -4,6 +4,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse, HttpResponseRedirect
 from django.urls import reverse
 from django.contrib.auth.models import User
+from django.contrib.admin.views.decorators import staff_member_required
 from . import forms
 from time_keeper import models
 import json
@@ -139,7 +140,7 @@ def clean_data(form):
 				}
 			)
 
-
+@login_required(login_url="/login")
 def post_data(request):
 	template='time_keeper/post_data.html'
 	form = forms.DataForm()
@@ -159,7 +160,7 @@ def index(request):
 #			put all save code here
 			clean_data(form)
 			if form.cleaned_data['id_button'] == 'save':
-				return HttpResponseRedirect(reverse('post_data'))
+				return HttpResponseRedirect(reverse('admin_data'))
 			return HttpResponseRedirect(reverse('index'))
 	template='time_keeper/index.html'
 	user = request.user
@@ -170,3 +171,9 @@ def index(request):
 				"sub_tasks":sub_tasks,
 			}
 	return render(request,template,context)
+
+@staff_member_required(login_url="/post_data")
+def admin_data(request):
+	template='time_keeper/admin_data.html'
+	records=models.TimeRecord.objects.all()
+	return render(request,template,{'records':records})

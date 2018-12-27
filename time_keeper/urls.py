@@ -12,4 +12,5 @@ urlpatterns = [
     path(r'get_task',views.get_task,name='get_task'),
     path(r'post_data',views.post_data,name='post_data'),
     path(r'reset',views.reset,name='reset'),
+    path(r'admin_data',views.admin_data,name='admin_data'),
 ]

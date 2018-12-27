@@ -173,6 +173,31 @@ table {
   color: white;
 }
 
+#all_data {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0.75em;
+    display: block;
+    border-collapse: collapse;
+}
+#all_data td {
+  padding: 10px; 
+  border-right: solid white 3px; 
+}
+
+#all_data tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#all_data tr:first-child {
+  padding: 10px;
+  background-color: #779ecb;
+}
+
+#all_data tr:first-child th {
+  padding: 7px;
+  color: white;
+}
 
 #task_type, #completed, #previous_task, #primary_task, #no_of_transactions, #sub_task, #remarks  {
     width: 100%;

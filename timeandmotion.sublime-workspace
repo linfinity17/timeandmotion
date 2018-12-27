@@ -1,0 +1,748 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"char",
+				"chart_data"
+			],
+			[
+				"stock1",
+				"stock_1"
+			],
+			[
+				"base",
+				"base_100"
+			],
+			[
+				"sto",
+				"stock_5"
+			],
+			[
+				"stoc",
+				"stock_4"
+			],
+			[
+				"st",
+				"stock_2"
+			],
+			[
+				"stock",
+				"stock_list"
+			],
+			[
+				"compare",
+				"compared_stocks"
+			],
+			[
+				"tick",
+				"ticker_list"
+			],
+			[
+				"tice",
+				"ticker_list"
+			],
+			[
+				"s",
+				"flex-start\talign-self"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"sp",
+				"space-around\tjustify-content"
+			],
+			[
+				"flex",
+				"flex-basis\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"Content",
+				"ContentCFA"
+			],
+			[
+				"tran",
+				"translateY()\ttransform"
+			],
+			[
+				"tra",
+				"translateY()\ttransform"
+			],
+			[
+				"alig",
+				"align-self\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"al",
+				"align-items\tproperty"
+			],
+			[
+				"link",
+				"linkedInLogo"
+			],
+			[
+				"git",
+				"gitHubLogo"
+			],
+			[
+				"sec",
+				"sectionPositions"
+			],
+			[
+				"pos",
+				"posY"
+			],
+			[
+				"bot",
+				"bottomPosition"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"trans",
+				"translateX()\ttransform"
+			],
+			[
+				"AL",
+				"align-content\tproperty"
+			],
+			[
+				"reac",
+				"reactLogo"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"borderr",
+				"border-radius\tproperty"
+			],
+			[
+				"is",
+				"isAtTop"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"transi",
+				"transition-duration\tproperty"
+			],
+			[
+				"ease-",
+				"ease-in-out\tanimation"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"ch",
+				"checkURLName"
+			],
+			[
+				"PATH",
+				"pathName"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"he",
+				"heights"
+			],
+			[
+				"transition-d",
+				"transition-duration\tproperty"
+			],
+			[
+				"scr",
+				"scrollY"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"forwa",
+				"forward_loop"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"db",
+				"dbPromise_record"
+			],
+			[
+				"pr",
+				"primary_task"
+			],
+			[
+				"sub",
+				"sub_task_value"
+			],
+			[
+				"con",
+				"continued"
+			],
+			[
+				"task",
+				"task_type"
+			],
+			[
+				"time",
+				"time_stamps"
+			],
+			[
+				"primar",
+				"primary_task"
+			],
+			[
+				"key",
+				"key_ref"
+			],
+			[
+				"pop",
+				"populateUnfinishedCases"
+			],
+			[
+				"primary",
+				"primary_task"
+			],
+			[
+				"un",
+				"unfinished_cases"
+			],
+			[
+				"compl",
+				"completed"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"save",
+				"saveToDB"
+			],
+			[
+				"no",
+				"no_of_transactions"
+			],
+			[
+				"timer",
+				"time_arr"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"transition",
+				"transition-duration\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"handle",
+				"handleReset"
+			],
+			[
+				"set",
+				"setState"
+			],
+			[
+				"St",
+				"Stopwatch"
+			],
+			[
+				"prev",
+				"prevState"
+			],
+			[
+				"pre",
+				"prereqs"
+			],
+			[
+				"cond",
+				"cond_1"
+			],
+			[
+				"togg",
+				"toggle_none"
+			],
+			[
+				"reque",
+				"requestUrl"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"margin-",
+				"margin-right\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"recor",
+				"record_index"
+			],
+			[
+				"sub_t",
+				"sub_task_list"
+			],
+			[
+				"prima",
+				"primary_task_list"
+			],
+			[
+				"load",
+				"local_id"
+			],
+			[
+				"json",
+				"jsondata"
+			],
+			[
+				"recrds",
+				"recordsData"
+			],
+			[
+				"to",
+				"toLocaleTimeString"
+			],
+			[
+				"input",
+				"inputVal"
+			],
+			[
+				"data",
+				"data_json"
+			],
+			[
+				"pause",
+				"pause_arr"
+			],
+			[
+				"paus",
+				"pause_time"
+			],
+			[
+				"star",
+				"start_time"
+			],
+			[
+				"arr",
+				"arr_test2"
+			],
+			[
+				"url",
+				"url_list"
+			],
+			[
+				"ur",
+				"url_base2"
+			],
+			[
+				"get",
+				"get_text"
+			],
+			[
+				"common",
+				"common_shares"
+			],
+			[
+				"table",
+				"table_row"
+			],
+			[
+				"inde",
+				"index_list"
+			],
+			[
+				"r",
+				"r"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"indentation",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indexing Status"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"babael",
+				"Preferences: Babel – Default"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/timeandmotion_env/timeandmotion"
+	],
+	"file_history":
+	[
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/equities/templates/equities/layout.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/equities/templates/equities/price_data.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/equities/views.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/equities/forms.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/equities/static/equities/css/layout.css",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/pfd/urls.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/pfd/settings.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/equities/templates/equities/home.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/equities/templates/equities/stock_list.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/equities/urls.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/templates/layout.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/assets/css/layout.css",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/assets/css/grid.css",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/equities/models.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/test_env/pfd/pfd/views.py",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/resumeData/ContentSBC.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/resumeData/ContentSEC.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/resumeData/ContentDOF.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/resumeData/ContentCFA.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/ResumeSection.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/ResumeData.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/resumeData.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/App.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/AboutMe.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/Contact.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/LanguageCard.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/css/index.css",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/Content.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/Projects.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/Resume.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/Scripts.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/Banner.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/portfolio/src/components/Header.js",
+		"/C/Users/205296/Desktop/mysitev2/package.json",
+		"/C/Users/205296/Desktop/newsite/my-portfolio/src/components/App.js",
+		"/C/Users/205296/Desktop/newsite/my-portfolio/src/css/index.css",
+		"/C/Users/205296/Desktop/newsite/my-portfolio/package.json",
+		"/C/Users/205296/Desktop/mysitev2/src/css/index.css",
+		"/C/Users/205296/Desktop/mysite/src/css/index.css",
+		"/C/Users/205296/Desktop/mysite/src/components/Burger.js",
+		"/C/Users/205296/Desktop/mysitev2/src/components/Burger.js",
+		"/C/Users/205296/Desktop/mysitev2/src/components/Header.js",
+		"/C/Users/205296/Desktop/mysite/src/components/Header.js",
+		"/C/Users/205296/Desktop/mysite/src/components/App.js",
+		"/C/Users/205296/Desktop/mysitev2/src/components/App.js",
+		"/C/Users/205296/Desktop/web_app_test/pfd/assets/css/grid.css",
+		"/C/Users/205296/Desktop/web_app_test/pfd/assets/css/layout.css",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/Banner.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/App.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/package.json",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/css/index.css",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/Content.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/Resume.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/AboutMe.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/Scripts.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/index.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/History.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/Header.js",
+		"/C/Users/Leandro Inumerable/Desktop/App.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/kb/src/css/index.css",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/images/arrow.svg",
+		"/C/Users/Leandro Inumerable/Desktop/looper.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/templates/layout.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/assets/css/layout.css",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/kb/package.json",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/Home.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/Nav.js",
+		"/C/Users/Leandro Inumerable/Desktop/personal/mysite/src/components/process sample.svg",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/assets/css/grid.css",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/templates/home.html",
+		"/C/Users/Leandro Inumerable/Downloads/flow chart sample.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/kb/src/components/App.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/kb/src/components/Home.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/static/js/serviceworker.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/templates/time_keeper/success.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/static/js/functions.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/static/js/index.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/views.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/models.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/templates/time_keeper/index.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/static/css/stylev6.css",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/static/js/idbop_record.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/templates/time_keeper/base.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/templates/time_keeper/post_data.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_record/settings.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/static/js/post_data.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/urls.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/static/js/idbop_task.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper/time_keeper/static/js/save_data.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/kb/src/components/ColumnNav.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/kb/src/components/Header.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/kb/src/components/Nav.js",
+		"/C/Users/Leandro Inumerable/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/pfd/settings.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/pfd/urls.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/components/Counter.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/components/Player.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/components/AddPlayerForm.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/components/Stats.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/components/Header.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/components/Stopwatch.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/components/App.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/index.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/build/static/js/main.a2423b2c.js",
+		"/C/Users/Leandro Inumerable/Desktop/stock.py",
+		"/C/Users/Leandro Inumerable/Desktop/functions.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/components/stats.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/scoreboard/src/index.css",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper-master/time_keeper/static/js/test.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper-master/time_keeper/templates/time_keeper/base.html",
+		"/C/Users/Leandro Inumerable/Desktop/test.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/react_basic/learn/static/js/app.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/assets/css/app.css",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/pfd/views.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/templates/react_base.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/assets/js/app.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/index.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/equities/templates/equities/financial_history.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/app.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/equities/urls.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper-master/time_keeper/templates/time_keeper/index.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper-master/time_keeper/static/js/serviceworker.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper-master/time_keeper/views.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper-master/time_keeper/templates/time_keeper/post_data.html",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper-master/time_keeper/static/js/idbop.js",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper-master/time_keeper/urls.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/time_keeper-master/time_record/settings.py",
+		"/C/Users/Leandro Inumerable/Desktop/web_app_test/pfd-master/equities/templates/equities/price_data.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "timeandmotion.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

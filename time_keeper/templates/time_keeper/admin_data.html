@@ -1,0 +1,29 @@
+{% extends 'time_keeper/base.html' %}
+{% block content %}
+{% load static %}
+
+	<div>
+		<table id="all_data">
+			<tr>
+				<th class='data-col-1'>Start Time</th>
+				<th class='data-col-2'>End Time</th>
+				<th class='data-col-3'>Primary Task</th>
+				<th class='data-col-4'>Sub Task</th>
+				<th class='data-col-5'>Remarks</th>
+				<th class='data-col-6'>User</th>
+			</tr>
+			{% for record in records %}
+			<tr>
+				<td class='data-col-1'>{{record.start_time}}</td>
+				<td class='data-col-2'>{{record.end_time}}</td>
+				<td class='data-col-3'>{{record.primary_task}}</td>
+				<td class='data-col-4'>{{record.sub_task}}</td>
+				<td class='data-col-5'>{{record.remarks}}</td>
+				<td class='data-col-6'>{{record.user}}</td>
+			</tr>
+			{% endfor %}
+		<!-- display here -->
+		</table>
+	</div>
+{% endblock %}
+
